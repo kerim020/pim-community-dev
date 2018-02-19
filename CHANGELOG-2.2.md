@@ -1,3 +1,13 @@
+# 2.3.x
+
+## BC breaks
+
+### Constructors
+
+- AOB-2: Change the constructor of `Pim\Bundle\DataGridBundle\EventListener\ConfigureProductGridListner` to add `Pim\Bundle\DataGridBundle\Datagrid\Configuration\ConfiguratorInterface`
+- AOB-2: Change the constructor of `Pim\Bundle\DataGridBundle\EventListener\ConfigureProductGridListner` to remove `Pim\Bundle\DataGridBundle\Datagrid\Configuration\Product\FiltersConfigurator`
+- AOB-2: Add `Akeneo\Component\StorageUtils\Repository\CountableRepositoryInterface` to `Pim\Bundle\UserBundle\Repository\UserRepositoryInterface`
+
 # 2.2.0-ALPHA0 (2018-02-13)
 
 ## Enhancements
