@@ -1,3 +1,9 @@
+# 1.7.x
+
+## Bug Fixes
+
+- PIM-7188: Avoid duplicate products during import
+
 # 1.7.17 (2018-02-01)
 
 ## Bug Fixes
